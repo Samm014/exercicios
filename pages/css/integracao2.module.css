@@ -1,0 +1,19 @@
+#integracao2{
+    background-color: #8d8;
+    height: 20vh;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: lightskyblue;
+}
+
+.white{
+    background-color: #2b2b2b;
+    color: white;
+}
