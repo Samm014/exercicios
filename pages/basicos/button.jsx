@@ -1,11 +1,11 @@
-function action1(){
-    console.log("action 1")
+function action1(e){
+    console.log(e)
 }
 
 export default function button(){
     return (
         <div>
-            <button onClick={()=>action1()}>Click me 😜</button>
+            <button onClick={(e)=>action1(e)}>Click me 😜</button>
         </div>
     )
 }
