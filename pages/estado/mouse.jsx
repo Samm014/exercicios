@@ -22,7 +22,7 @@ export default function mouse(props){
     }
 
     function mouseMoved(e){
-       /*  console.log(e); */
+      console.log(e); 
        setArrayX(e.clientX)
        setArrayY(e.clientY)
     }

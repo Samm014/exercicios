@@ -1,4 +1,5 @@
 import { useState } from "react";
+import NumeroDisplay from "../../components/NumeroDisplay";
 import styles from './css/styleContador.module.css';
 
 export default function contador(){
@@ -13,7 +14,7 @@ export default function contador(){
         <div className={styles.body}>
             <div className={styles.container}>
                 <h1 className={styles.title}>Contador</h1>
-                <p className={styles.valor}>{valor}</p>
+                <NumeroDisplay valor={valor}/>
                 <div className={styles.wrapButtons}>
                     <button className={styles.button} onClick={(e)=>getValor(e)}>Diminuir(-)</button>
                     <button className={styles.button} onClick={(e)=>getValor(e)}>Aumentar(+)</button>

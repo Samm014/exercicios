@@ -1,0 +1,37 @@
+.body{
+    height: 100vh;
+    background-color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form{
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.input{
+    margin: 5px 0;
+}
+
+.boxCadastro{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.spanDados{
+    font-size: 20px;
+}
