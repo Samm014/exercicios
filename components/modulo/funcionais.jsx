@@ -26,10 +26,14 @@ export const Comp4 = ()=>{
 
 export const Comp5 = ()=> <h2>Comp5</h2>
 
-export const Comp6 = ()=>{
+export const Comp6 = props=>{
     return (
         <div>
-            Comp6
+            {props.msg}
         </div>
     )
 }
+
+// export {
+//     Comp1,Comp2,Comp4,Comp5,Comp6,
+// }

@@ -7,6 +7,7 @@ export default function teste(){
            <Padrao />
            <Comp4 />
            <Comp5 />
+           <Comp6 msg="Hello, World!"/>
         </div>
     )
 }
